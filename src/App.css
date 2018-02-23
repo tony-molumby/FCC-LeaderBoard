@@ -1,0 +1,59 @@
+.camper{
+	width: 30%;
+}
+.clickable{
+	cursor: pointer;
+}
+
+.clickable:hover{
+	text-decoration: underline;
+}
+
+.footer{
+	height:30px;
+	background-color: #050505;
+	text-align: center;
+	grid-area: footer;
+	color: #FFF;
+}
+
+.header{
+  padding-top: 10px;
+  grid-area: header;
+  text-align: center;
+  background-color: #050505;
+	color: #FFF;
+}
+
+img{
+	margin-right: 10px;
+}
+
+.image{
+	height: 24px;
+	width: 10px;
+	cellpadding: 0px;
+}
+
+.site {
+  display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	grid-template-areas:
+		"header"
+		"table"
+		"footer"
+}
+
+.table{
+	grid-area: table;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #ffcccc;
+}
+
+.trow{
+	height: 30px;
+}
+
